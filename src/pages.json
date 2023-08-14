@@ -1,0 +1,202 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "某某省第一人民医院",
+				"navigationBarBackgroundColor": "#F8F8F8",
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/registered/registered",
+			"style": {
+				"navigationBarTitleText": "预约挂号",
+				"navigationBarBackgroundColor": "#F8F8F8"
+			}
+		},
+		{
+			"path": "pages/video/video",
+			"style": {
+				"navigationBarTitleText": "医师课堂",
+				"navigationBarBackgroundColor": "#F8F8F8"
+			}
+		},
+		{
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"navigationBarBackgroundColor": "#F8F8F8"
+			}
+		},
+		{
+			"path":"pages/login/index",
+			"style": {
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path":"pages/xinguan-vaccine/xinguan-vaccine",
+			"style": {
+				"navigationBarTitleText": "新冠疫苗接种预约",
+				"navigationBarBackgroundColor": "#F8F8F8"
+			}
+		},
+		{
+			"path":"pages/service/xinguan/index",
+			"style": {
+				"navigationBarTitleText": "新冠疫苗预约订单",
+				"navigationBarBackgroundColor": "#F8F8F8"
+			}
+		},
+		{
+			"path":"pages/hpv/list",
+			"style": {
+				"navigationBarTitleText": "宫颈癌疫苗在线预约",
+				"navigationBarBackgroundColor": "#F8F8F8"
+			}
+		},
+		{
+			"path":"pages/hpv/index",
+			"style": {
+				"navigationBarTitleText": "hpv套餐详情",
+				"navigationBarBackgroundColor": "#F8F8F8"
+			}
+		},
+		{
+			"path":"pages/service/hpv/index",
+			"style": {
+				"navigationBarTitleText": "hpv预约订单",
+				"navigationBarBackgroundColor": "#F8F8F8"
+			}
+		},{
+			"path":"pages/nuclic/index",
+			"style": {
+				"navigationBarTitleText": "核酸检测预约",
+				"navigationBarBackgroundColor": "#F8F8F8"
+			}
+		},
+		{
+			"path":"pages/service/nuclic/index",
+			"style": {
+				"navigationBarTitleText": "核酸检测预约订单",
+				"navigationBarBackgroundColor": "#F8F8F8"
+			}
+		},
+		{
+			"path":"pages/graphics/index",
+			"style": {
+				"navigationBarTitleText": "病情咨询",
+				"navigationBarBackgroundColor": "#F8F8F8"
+			}
+		},
+		{
+			"path":"pages/service/patient/index",
+			"style": {
+				"navigationBarTitleText": "就诊人",
+				"navigationBarBackgroundColor": "#F8F8F8"
+			}
+		},
+		{
+			"path":"pages/service/patient/addpatient",
+			"style": {
+				"navigationBarTitleText": "创建就诊人",
+				"navigationBarBackgroundColor": "#F8F8F8"
+			}
+		},
+		{
+			"path":"pages/exam/index",
+			"style": {
+				"navigationBarTitleText": "体检套餐",
+				"navigationBarBackgroundColor": "#F8F8F8"
+			}
+		},
+		{
+			"path":"pages/exam/detail",
+			"style": {
+				"navigationBarTitleText": "套餐详情",
+				"navigationBarBackgroundColor": "#F8F8F8"
+			}
+		},
+		{
+			"path":"pages/service/exam/index",
+			"style": {
+				"navigationBarTitleText": "体检预约",
+				"navigationBarBackgroundColor": "#F8F8F8"
+			}
+		},
+		{
+			"path":"pages/selftest/index",
+			"style": {
+				"navigationBarTitleText": "健康自测",
+				"navigationBarBackgroundColor": "#F8F8F8"
+			}
+		},
+		{
+			"path":"pages/selftest/result",
+			"style": {
+				"navigationBarTitleText": "测评结果",
+				"navigationBarBackgroundColor": "#F8F8F8"
+			}
+		},
+		{
+			"path":"pages/doctor/index",
+			"style": {
+				"navigationBarTitleText": "医生",
+				"navigationBarBackgroundColor": "#F8F8F8"
+			}
+		},
+		{
+			"path":"pages/doctor/doctor-Homepage",
+			"style": {
+				"navigationBarTitleText": "医生主页",
+				"navigationBarBackgroundColor": "#F8F8F8"
+			}
+		},
+		{
+			"path":"pages/service/registration/index",
+			"style": {
+				"navigationBarTitleText": "挂号订单",
+				"navigationBarBackgroundColor": "#F8F8F8"
+			}
+		}
+	],
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#3cc51f",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text":"首页",
+				"iconPath":"static/tab/shouye-001.png",
+				"selectedIconPath":"static/tab/shouye-002.png"
+			},
+			{
+				"pagePath": "pages/registered/registered",
+				"text":"预约挂号",
+				"iconPath":"static/tab/guahao-001.png",
+				"selectedIconPath":"static/tab/guahao-002.png"
+			},
+			{
+				"pagePath": "pages/video/video",
+				"text":"医师课堂",
+				"iconPath":"static/tab/shipin-001.png",
+				"selectedIconPath":"static/tab/shipin-002.png"
+			},
+			{
+				"pagePath": "pages/mine/mine",
+				"text":"我的",
+				"iconPath":"static/tab/wode-001.png",
+				"selectedIconPath":"static/tab/wode-002.png"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "在线挂号平台",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
